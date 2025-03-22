@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Amor 💖</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffebee;
+            color: #d81b60;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 250px;  /* Aumenta el tamaño */
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);  /* Efecto de agrandar al pasar el mouse */
+        }
+        video {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="tu-cancion.mp3" type="audio/mp3">
+        Tu navegador no soporta audio.
+    </audio>
+
+    <div class="container">
+        <h1>Feliz Cumpleaños, Mi Amor 🎂💖</h1>
+        <p>Quería hacerte algo especial, no es mucho pero quería hacerte algo "lindo" ya que es lo mínimo que te mereces por ser como eres conmigo, nunca olvides que te amo y que por más que sea una persona inservible e insensible, siempre te llevo en mi corazón porque eres lo mejor que me ha pasado. Te amo muchísimo. ¡FELIZ CUMPLEAÑOS MI NIÑA! 💕</p>
+
+        <div class="gallery">
+            <img src="foto1.jpg" alt="Nosotros">
+            <img src="foto2.jpg" alt="Un hermoso recuerdo">
+            <img src="foto3.jpg" alt="Momentos especiales">
+        </div>
+
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+    </div>
+</body>
+</html>
